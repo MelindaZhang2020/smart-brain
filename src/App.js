@@ -25,7 +25,6 @@ const initialState = {
       email: '',
       entries: 0,
       joined: ''
-    
   }
 }
 class App extends Component {
@@ -58,7 +57,6 @@ class App extends Component {
   }
 
   displayFaceBox = (box) => {
-    console.log(box)
     this.setState({box:box});
   }
 
